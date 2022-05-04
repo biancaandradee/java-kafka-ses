@@ -1,0 +1,6 @@
+br/com/kafka_ses/App.class
+br/com/kafka_ses/auth_ses/AWSCredentials$1.class
+br/com/kafka_ses/auth_ses/AWSCredentials.class
+br/com/kafka_ses/auth_ses/AWSCredentials$1$1.class
+br/com/kafka_ses/services_kafka/KafkaService.class
+br/com/kafka_ses/services_ses/SESService.class
