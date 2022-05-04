@@ -39,7 +39,6 @@ source ~/.bash_profile
 # Envia mensagem
 ~/kafka_2.13-3.1.0/bin/kafka-console-producer.sh --broker-list=localhost:9092 --topic="NOME_TOPICO"
 
-
 # Consome mensagens
 ~/kafka_2.13-3.1.0/bin/kafka-console-consumer.sh --bootstrap-server=localhost:9092 --topic="NOME_TOPICO" 
 ~/kafka_2.13-3.1.0/bin/kafka-console-consumer.sh --bootstrap-server=localhost:9092 --topic="NOME_TOPICO" --from-beginning  #Lê as mensagens desde o início
@@ -52,6 +51,7 @@ echo '{ "partitions": [ { "topic": "NOME_TOPICO", "partition": 0, "offset": 1 } 
 ~/kafka_2.13-3.1.0/bin/kafka-topics.sh --topic="EXEMPLO_TOPICO" --delete --bootstrap-server=1localhost:9092
 
 ```
+
 
 # AWS SES
 
